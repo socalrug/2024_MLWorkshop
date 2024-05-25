@@ -6,4 +6,4 @@ Dr. Olga Korosteleva, a professor of Statistics at California State University, 
 
 
 ## Posit Cloud Project 
-(here)[https://posit.cloud/content/8253924]
+[here](https://posit.cloud/content/8253924)
