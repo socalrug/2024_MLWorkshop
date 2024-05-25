@@ -1,0 +1,759 @@
+age,gender,member,nmovies,rating
+42,M,yes,1,very good
+65,F,yes,1,bad
+46,M,yes,6,good
+41,F,yes,5,very bad
+18,M,yes,3,good
+52,F,no,1,very good
+69,M,yes,3,bad
+55,F,yes,0,very good
+13,M,yes,6,good
+13,M,yes,6,good
+15,F,no,6,good
+20,F,yes,4,good
+46,F,no,4,very good
+71,M,yes,3,okay
+48,F,yes,4,very good
+37,F,yes,3,good
+45,F,no,4,very bad
+45,M,yes,3,bad
+43,M,no,3,good
+30,M,yes,1,okay
+12,M,yes,3,very good
+54,F,yes,5,bad
+65,M,yes,5,bad
+49,M,no,6,bad
+72,M,no,0,very bad
+14,F,yes,5,good
+24,F,yes,0,good
+50,M,yes,6,bad
+40,F,yes,5,bad
+58,M,yes,5,good
+53,F,yes,6,bad
+57,F,no,6,very good
+46,F,yes,3,good
+65,M,yes,0,bad
+73,M,yes,5,okay
+64,F,yes,5,good
+27,F,yes,3,okay
+20,F,yes,6,very good
+71,F,no,4,good
+24,M,yes,6,good
+56,F,yes,4,good
+46,M,no,1,okay
+41,F,yes,0,very good
+41,F,yes,6,good
+61,F,yes,4,good
+58,F,yes,4,very good
+34,F,yes,2,bad
+71,M,no,3,very good
+66,M,yes,5,bad
+69,M,yes,0,bad
+27,F,no,2,okay
+13,M,yes,0,good
+70,F,yes,1,very good
+52,M,no,4,good
+21,M,yes,7,very good
+29,F,yes,3,very good
+28,F,yes,3,okay
+53,F,yes,1,okay
+69,M,yes,4,okay
+68,M,no,3,bad
+44,F,yes,4,okay
+24,F,yes,7,very good
+70,F,no,3,very bad
+29,M,no,3,good
+60,M,yes,5,okay
+49,F,no,4,bad
+12,M,no,0,very good
+19,F,yes,5,very good
+66,M,yes,3,very good
+41,M,no,5,very good
+31,F,yes,3,very good
+68,F,no,5,very bad
+32,M,no,5,okay
+13,M,yes,0,very good
+57,M,yes,5,okay
+13,M,yes,5,very good
+21,F,yes,2,good
+66,M,yes,5,okay
+63,F,yes,3,good
+12,M,yes,0,very good
+26,F,yes,0,okay
+52,F,no,3,good
+64,F,yes,1,okay
+22,F,yes,1,good
+54,F,yes,7,very bad
+62,M,yes,3,good
+58,F,no,3,good
+64,M,yes,2,okay
+39,M,no,0,good
+27,F,yes,3,good
+69,M,yes,3,very good
+31,F,yes,1,okay
+23,M,yes,3,very good
+54,M,yes,6,good
+63,F,yes,2,bad
+62,F,no,0,bad
+46,M,yes,5,good
+52,M,no,3,okay
+42,F,no,5,very bad
+54,F,no,5,very bad
+21,F,yes,0,very good
+16,M,yes,3,very good
+53,M,no,2,good
+25,F,yes,0,very good
+19,F,no,0,good
+27,M,yes,1,good
+56,M,yes,6,very good
+44,F,no,2,okay
+55,F,yes,6,bad
+27,M,no,2,okay
+40,M,yes,4,bad
+19,M,no,5,very good
+59,F,yes,1,good
+23,M,yes,7,very good
+54,M,no,1,very good
+19,F,no,6,very good
+25,M,yes,6,good
+37,F,no,3,okay
+31,F,no,6,very good
+34,M,yes,6,good
+40,F,yes,6,okay
+50,M,yes,6,very good
+68,M,no,5,very good
+68,M,yes,5,bad
+23,M,no,6,very good
+23,F,yes,4,very good
+52,F,yes,4,okay
+65,F,yes,1,good
+25,M,yes,2,very good
+47,M,yes,4,okay
+56,F,yes,4,bad
+48,M,yes,4,very good
+26,M,yes,5,okay
+23,M,no,0,very good
+59,M,yes,1,okay
+33,F,yes,4,very good
+38,M,no,0,okay
+72,F,yes,6,very bad
+21,M,no,4,good
+18,M,no,1,good
+39,M,yes,2,good
+55,M,no,0,bad
+54,M,yes,2,very good
+42,M,no,3,okay
+63,M,yes,3,good
+52,M,yes,1,okay
+28,M,yes,1,okay
+51,M,no,5,very good
+55,M,yes,3,very good
+73,M,no,3,good
+29,M,no,4,very good
+35,F,yes,4,good
+13,M,yes,4,good
+22,M,yes,1,good
+45,M,yes,3,okay
+48,F,yes,4,bad
+17,M,yes,6,very good
+22,F,no,3,good
+41,F,no,5,very bad
+57,F,no,1,bad
+73,F,yes,5,very good
+52,F,no,4,very bad
+52,F,yes,7,very bad
+50,F,no,4,okay
+23,F,yes,6,good
+57,M,yes,5,bad
+63,M,no,2,very good
+60,M,yes,3,okay
+49,F,yes,4,very bad
+52,F,yes,4,bad
+41,F,yes,5,bad
+42,M,no,6,very good
+47,M,yes,0,very good
+44,F,yes,2,good
+25,M,yes,1,good
+68,F,yes,6,okay
+17,M,yes,2,very good
+42,F,yes,1,good
+31,M,yes,2,very good
+47,F,no,4,okay
+49,M,yes,4,bad
+70,M,no,0,very good
+65,M,yes,4,good
+23,F,no,1,very good
+23,M,no,3,very good
+54,M,no,2,very good
+45,F,yes,5,very bad
+16,M,no,6,very good
+36,M,no,2,good
+11,F,yes,0,very good
+68,M,no,5,okay
+67,F,yes,0,very good
+19,M,yes,4,very good
+44,M,no,5,okay
+22,F,yes,5,good
+46,M,no,5,bad
+54,M,yes,7,very bad
+24,M,yes,2,very good
+24,M,no,0,very good
+18,M,yes,6,very good
+54,M,yes,0,bad
+47,M,no,4,bad
+60,F,no,4,very good
+34,M,yes,3,okay
+71,M,no,2,very good
+17,M,no,3,very good
+14,M,yes,3,very good
+47,M,yes,4,okay
+22,F,yes,3,very good
+46,M,yes,4,very bad
+54,M,yes,6,okay
+24,M,yes,4,very good
+47,F,no,7,very bad
+12,F,yes,5,very good
+70,F,yes,2,very good
+21,M,yes,0,very good
+29,M,no,4,good
+55,F,yes,1,very good
+13,F,no,5,very good
+54,F,yes,2,good
+12,M,yes,4,very good
+48,F,yes,3,good
+31,F,yes,6,okay
+21,F,yes,6,very good
+32,M,yes,6,very good
+26,F,no,6,good
+45,F,yes,2,very good
+48,F,yes,5,bad
+51,F,yes,2,good
+37,M,no,6,good
+41,F,yes,0,okay
+23,F,no,3,very good
+23,F,yes,4,good
+21,F,yes,6,very good
+23,F,yes,4,very good
+71,M,yes,6,okay
+52,M,yes,5,very good
+72,F,no,6,bad
+52,F,yes,4,good
+62,M,yes,2,okay
+31,F,no,3,very good
+30,M,no,2,good
+13,M,yes,1,very good
+16,M,yes,4,very good
+34,M,no,3,good
+28,M,yes,4,okay
+43,M,no,2,good
+18,M,yes,6,good
+29,M,yes,5,good
+50,F,no,3,very good
+47,M,yes,0,very good
+56,F,yes,4,very bad
+38,M,yes,4,very good
+14,F,yes,0,good
+40,F,no,6,very good
+68,F,yes,6,very bad
+12,F,yes,5,okay
+56,M,yes,3,bad
+37,M,yes,5,very good
+56,M,yes,2,good
+29,F,yes,5,good
+41,M,no,4,okay
+64,M,yes,4,okay
+51,M,no,1,good
+60,M,yes,6,okay
+44,M,yes,4,okay
+41,F,yes,6,very bad
+54,F,no,1,bad
+29,M,no,6,okay
+73,F,yes,4,bad
+73,M,no,5,very good
+32,M,yes,0,okay
+15,F,yes,3,good
+69,M,no,0,good
+47,M,yes,1,bad
+35,F,no,1,bad
+67,F,yes,1,okay
+28,F,yes,2,very good
+19,M,no,1,very good
+67,M,yes,3,bad
+50,F,yes,1,bad
+41,M,yes,1,bad
+30,M,yes,3,okay
+48,M,no,6,very bad
+34,M,no,2,okay
+47,M,no,3,very good
+13,M,no,2,very good
+23,F,yes,6,very good
+45,M,yes,1,good
+52,M,no,5,okay
+57,M,no,5,okay
+53,F,yes,3,very good
+19,M,yes,2,okay
+45,M,yes,1,okay
+29,M,no,3,good
+69,M,yes,5,bad
+30,M,yes,4,okay
+54,F,yes,1,okay
+46,F,no,3,okay
+60,M,yes,3,good
+46,M,yes,0,good
+59,M,yes,5,okay
+47,F,yes,5,bad
+57,M,yes,3,very bad
+50,M,yes,6,good
+19,M,no,3,good
+41,F,no,3,okay
+60,F,no,5,good
+53,M,yes,6,bad
+20,M,yes,5,very good
+13,F,no,4,good
+65,M,yes,1,very good
+35,F,yes,6,okay
+15,M,yes,0,good
+73,F,no,1,very good
+62,F,yes,2,okay
+14,F,no,2,good
+45,M,yes,6,bad
+51,M,no,4,okay
+73,M,no,6,bad
+16,M,yes,1,very good
+26,M,no,0,very good
+19,M,yes,3,good
+18,M,no,6,very good
+33,M,no,2,very good
+12,M,yes,6,good
+45,F,yes,6,very good
+23,F,yes,6,very good
+38,F,yes,4,bad
+18,F,yes,6,very good
+32,M,yes,5,good
+65,F,yes,6,bad
+62,F,yes,5,good
+31,M,yes,4,good
+20,M,yes,6,very good
+24,M,no,1,good
+23,F,yes,2,good
+12,F,no,2,very good
+40,F,no,1,very good
+45,F,yes,5,okay
+69,M,yes,6,good
+71,M,yes,6,bad
+50,M,yes,6,okay
+37,F,no,2,okay
+21,F,yes,0,very good
+60,F,no,2,good
+47,F,yes,6,bad
+51,M,no,6,very good
+73,M,yes,1,good
+38,M,yes,2,very good
+41,M,yes,1,okay
+39,F,yes,6,bad
+23,F,yes,4,very good
+52,F,no,4,good
+14,F,yes,0,very good
+31,M,yes,1,okay
+64,M,yes,6,bad
+33,F,yes,1,bad
+23,F,yes,4,very good
+70,M,no,1,good
+30,M,no,2,very good
+21,F,yes,1,good
+39,M,no,5,very good
+41,F,no,4,bad
+34,M,no,2,good
+53,F,yes,5,very good
+41,F,yes,5,very bad
+29,F,yes,2,good
+25,M,yes,4,very good
+14,M,yes,6,okay
+47,M,no,0,very good
+46,M,yes,3,okay
+51,F,yes,4,very bad
+55,M,no,3,bad
+33,M,no,0,okay
+44,F,yes,4,good
+65,M,no,3,very good
+64,M,yes,3,very good
+53,F,yes,5,good
+29,M,yes,0,good
+46,F,yes,0,good
+32,M,yes,6,good
+14,F,yes,6,good
+45,F,yes,5,bad
+32,M,yes,2,very good
+39,M,no,1,very good
+23,F,yes,5,good
+33,M,yes,2,very good
+54,M,no,4,bad
+40,M,yes,5,okay
+32,M,yes,4,very good
+38,M,yes,2,good
+24,F,yes,3,very good
+73,F,yes,2,very good
+57,F,yes,5,bad
+64,M,yes,4,very good
+64,M,yes,2,good
+59,M,no,0,very good
+53,F,no,5,very bad
+41,F,yes,5,bad
+32,F,yes,5,good
+45,M,yes,2,okay
+44,M,yes,1,very good
+33,M,yes,6,okay
+19,M,yes,1,very good
+14,M,yes,2,good
+42,F,yes,7,bad
+52,M,yes,6,bad
+39,M,yes,5,very bad
+20,M,no,3,very good
+17,F,no,1,very good
+29,M,yes,3,okay
+14,M,no,3,very good
+31,F,yes,2,very good
+71,M,no,4,very good
+70,M,no,3,bad
+50,M,no,1,okay
+42,F,yes,3,good
+47,F,yes,5,very bad
+59,F,yes,6,bad
+47,M,no,5,very good
+26,M,yes,4,very good
+61,F,yes,0,good
+37,F,yes,5,very good
+22,F,yes,1,good
+16,M,yes,3,very good
+53,F,yes,5,very bad
+43,M,no,6,very good
+22,F,no,0,very good
+54,M,yes,4,very good
+66,M,yes,3,very good
+18,M,no,2,good
+27,F,no,2,very good
+19,F,yes,2,very good
+51,M,yes,5,very good
+42,M,no,6,okay
+26,M,yes,5,very good
+50,M,yes,6,very bad
+37,M,yes,3,bad
+66,M,no,2,very good
+30,M,no,3,okay
+41,M,no,4,very bad
+55,M,yes,1,okay
+38,F,yes,5,very bad
+65,M,yes,4,okay
+39,M,yes,5,very good
+21,M,yes,5,good
+15,M,yes,3,good
+48,F,yes,5,bad
+16,M,no,5,good
+49,F,no,3,very good
+43,F,yes,4,bad
+27,F,no,2,good
+42,M,yes,6,good
+25,M,yes,0,very good
+17,F,no,2,good
+34,M,no,0,good
+67,F,no,1,very good
+32,M,no,6,very good
+24,M,yes,5,good
+23,F,yes,7,very good
+57,M,no,5,bad
+13,F,yes,2,very good
+22,M,yes,4,very good
+12,M,yes,1,good
+22,M,yes,4,very good
+59,F,no,0,very good
+22,M,no,2,good
+67,M,no,5,okay
+41,M,yes,6,very good
+55,F,yes,5,bad
+29,M,yes,5,very good
+29,F,no,6,very good
+37,F,no,5,very good
+71,M,yes,4,very good
+68,F,no,4,okay
+63,F,no,6,bad
+37,M,no,1,good
+32,M,yes,3,okay
+37,M,yes,4,good
+53,F,yes,6,very bad
+52,M,yes,5,okay
+21,F,no,4,good
+59,F,no,3,okay
+30,F,no,3,good
+57,M,yes,3,good
+62,M,yes,2,okay
+63,M,yes,3,bad
+53,M,yes,1,bad
+66,F,no,0,good
+36,F,no,2,okay
+41,F,yes,1,bad
+25,M,yes,4,okay
+30,F,yes,2,okay
+35,F,yes,5,very good
+29,F,yes,5,very good
+40,F,yes,1,very good
+39,M,yes,3,okay
+47,F,no,6,bad
+26,F,no,2,good
+68,M,no,2,okay
+48,F,yes,4,very good
+63,M,yes,5,okay
+72,M,yes,5,very bad
+16,M,yes,1,good
+59,M,no,1,good
+32,M,no,1,good
+70,F,no,0,okay
+62,M,yes,1,bad
+41,F,yes,0,okay
+56,F,yes,2,very good
+35,F,yes,0,okay
+57,M,yes,2,good
+55,M,yes,2,okay
+14,F,yes,1,very good
+38,M,yes,0,okay
+23,F,no,4,good
+28,F,no,2,okay
+12,F,no,2,good
+68,F,yes,5,bad
+59,F,no,5,very good
+30,F,no,3,very good
+49,F,no,7,very bad
+23,M,yes,3,very good
+20,F,yes,5,very good
+69,M,yes,5,okay
+13,F,no,3,okay
+63,M,yes,4,very good
+41,M,no,5,bad
+69,F,no,2,bad
+62,M,yes,4,good
+64,M,yes,2,good
+43,M,no,0,okay
+24,F,yes,2,very good
+54,F,yes,4,very bad
+55,F,no,6,bad
+62,F,no,6,very good
+34,F,no,0,good
+50,M,no,6,okay
+54,M,yes,2,very good
+41,M,yes,2,bad
+59,F,yes,3,bad
+38,M,yes,6,bad
+18,F,yes,4,very good
+66,M,yes,3,good
+73,M,yes,6,bad
+23,F,no,0,good
+19,F,yes,2,good
+36,M,yes,2,bad
+54,M,yes,4,very good
+43,M,no,2,bad
+29,M,no,2,very good
+35,F,no,0,very good
+11,F,yes,5,good
+71,M,no,0,good
+14,F,yes,4,good
+58,F,yes,5,okay
+52,F,yes,7,bad
+56,F,yes,4,very bad
+49,M,yes,5,good
+36,M,yes,6,very good
+39,F,yes,5,bad
+57,F,no,4,very good
+33,F,yes,1,okay
+58,F,no,3,bad
+31,M,no,0,good
+57,M,yes,6,okay
+13,F,yes,1,okay
+56,F,no,4,very bad
+61,F,no,6,good
+67,F,yes,2,bad
+71,M,yes,6,bad
+65,F,no,2,good
+27,M,yes,1,bad
+17,F,no,3,good
+51,F,yes,3,good
+52,F,yes,7,very bad
+73,M,yes,2,good
+33,M,yes,4,good
+62,M,yes,6,okay
+63,M,no,5,very good
+39,F,yes,4,bad
+69,F,yes,4,bad
+40,M,yes,4,very bad
+44,F,yes,6,very bad
+55,M,yes,3,bad
+52,M,no,4,bad
+34,M,no,4,very good
+21,M,yes,4,very good
+36,M,yes,3,okay
+52,F,yes,5,very bad
+48,F,yes,3,bad
+30,F,no,5,good
+31,F,yes,6,okay
+37,M,no,0,okay
+63,M,yes,4,good
+51,M,yes,2,very bad
+64,F,yes,3,very good
+19,F,no,6,very good
+25,F,yes,0,good
+42,F,no,0,okay
+32,M,yes,1,good
+28,F,no,5,okay
+23,M,yes,4,very good
+57,M,yes,6,good
+61,M,no,2,okay
+49,F,no,5,very bad
+51,M,yes,7,bad
+18,F,no,3,good
+52,M,no,5,bad
+61,M,yes,5,good
+21,F,no,6,good
+22,M,yes,4,good
+46,M,no,0,very good
+53,F,yes,3,okay
+20,F,yes,6,very good
+36,F,no,4,very good
+18,M,no,0,very good
+67,M,no,6,good
+34,M,yes,5,good
+26,M,yes,1,okay
+49,M,no,5,bad
+72,M,yes,5,good
+20,F,yes,6,very good
+34,M,yes,4,okay
+38,F,no,7,bad
+62,F,no,6,okay
+36,M,no,2,good
+60,F,no,2,good
+11,M,yes,3,good
+16,M,yes,6,good
+51,M,no,2,good
+55,M,yes,1,good
+63,M,yes,2,very good
+55,F,yes,4,bad
+38,M,yes,1,good
+39,F,yes,1,okay
+67,M,yes,3,very good
+13,M,no,5,good
+54,M,yes,5,good
+29,M,no,6,good
+60,M,yes,0,bad
+36,F,yes,4,very good
+63,M,no,3,bad
+73,F,yes,4,bad
+13,F,yes,1,good
+72,F,yes,3,very bad
+48,M,yes,6,bad
+14,F,yes,0,very good
+67,M,yes,0,okay
+29,M,no,4,good
+18,F,yes,2,good
+39,M,yes,4,good
+52,M,yes,5,okay
+34,F,yes,5,bad
+17,M,no,6,good
+21,F,yes,5,very good
+55,F,no,0,okay
+27,F,yes,0,very good
+63,M,yes,0,bad
+66,F,yes,2,okay
+53,M,yes,2,good
+47,F,yes,2,good
+34,F,yes,0,very good
+11,M,yes,0,good
+16,M,yes,5,good
+16,M,no,6,good
+69,M,yes,6,okay
+67,M,no,3,very good
+23,M,yes,4,very good
+16,F,yes,1,good
+28,M,no,2,good
+52,M,yes,2,good
+36,M,no,3,okay
+62,M,yes,1,good
+31,M,yes,4,good
+12,F,yes,3,good
+22,M,no,4,very good
+72,M,yes,6,okay
+13,F,no,4,good
+33,M,yes,6,good
+70,F,yes,3,very bad
+46,M,no,1,okay
+40,F,yes,4,good
+15,M,yes,4,good
+66,F,yes,0,okay
+45,M,yes,4,very bad
+62,M,yes,5,very good
+23,F,yes,6,good
+49,M,yes,7,bad
+66,M,no,4,bad
+20,M,yes,0,good
+43,M,no,6,bad
+32,M,yes,5,very good
+27,M,yes,1,good
+68,M,no,3,okay
+53,M,yes,5,bad
+16,M,yes,3,very good
+70,F,no,5,very bad
+30,M,no,6,okay
+39,F,yes,3,good
+71,F,yes,3,good
+14,M,yes,0,good
+18,M,yes,4,very good
+23,F,yes,2,good
+51,M,yes,6,very good
+34,M,yes,6,good
+49,F,no,6,bad
+48,F,no,5,very bad
+61,M,no,3,okay
+55,F,yes,5,bad
+54,M,yes,4,very bad
+50,F,yes,4,good
+45,F,no,6,very bad
+45,M,yes,2,good
+37,F,yes,0,bad
+39,M,no,2,very good
+33,F,yes,5,very good
+25,M,no,4,very good
+44,M,yes,0,very good
+18,F,yes,6,very good
+32,M,yes,2,bad
+73,M,yes,2,very good
+40,F,yes,6,very bad
+50,M,yes,4,very bad
+73,F,yes,5,very bad
+21,M,yes,4,good
+28,M,yes,3,good
+19,M,yes,5,very good
+51,M,yes,1,good
+29,M,yes,4,okay
+35,M,yes,5,good
+62,M,yes,2,okay
+45,M,no,3,very good
+51,F,yes,2,good
+32,M,no,6,good
+38,F,yes,0,very good
+46,M,yes,4,very good
+55,F,yes,4,very bad
+56,M,yes,5,very good
+18,F,yes,5,very good
+72,F,yes,1,bad
+43,M,yes,0,okay
+66,F,no,6,okay
+51,M,yes,7,bad
+44,M,no,2,very good
+46,M,yes,1,very good
+11,M,yes,1,good
+63,F,yes,3,okay
+32,F,yes,0,bad
+34,M,no,1,very good
+72,M,yes,2,okay
+52,M,yes,1,good
+59,M,yes,3,good
+21,M,yes,7,very good
+22,F,yes,7,very good
+45,M,yes,2,okay
+54,M,yes,3,bad
