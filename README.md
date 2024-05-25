@@ -5,5 +5,5 @@ In this workshop, we'll study supervised machine learning methods using R. We’
 Dr. Olga Korosteleva, a professor of Statistics at California State University, Long Beach since 2002, holds a bachelor's degree in Mathematics from Wayne State University (1996), a Master's in Statistics from Purdue University (1998), and a Ph.D. in Statistics from Purdue University (2002). She has had an extensive experience teaching a diverse array of Statistics/Mathematics courses at undergraduate and graduate levels, actively engages with the local professional association of statisticians (SoCal Chapter of ASA), and has initiated a program for intellectually gifted high school students to conduct research in math/statistics and publish their findings in a journal she recently established.
 
 
-## Posit Cloud Project 
+## [Posit Cloud Project](https://posit.cloud/content/8253924) 
 [here](https://posit.cloud/content/8253924)
