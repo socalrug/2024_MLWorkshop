@@ -11,7 +11,7 @@ library(tibble)
 library(ggplot2)
 library(wordcloud)
 
-book<- gutenberg_download(48320, meta_fields="author")
+book<- gutenberg_download(19033, meta_fields="author")
 #48320, 42671, 74, 24022, 1777, 1597, 19033
 #puts text into tibble format
 book<- as_tibble(book) %>% 
@@ -59,7 +59,7 @@ tb %>%
 library(wordcloud2)
 library(RColorBrewer)
 
-wordcloud2(word_count, shape='star', size=0.5)
+wordcloud2(word_count, shape='cardioid', size=0.5)
 #options for shapes: circle, cardioid, diamond, triangle-forward, triangle, pentagon, star
 
  

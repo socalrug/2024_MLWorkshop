@@ -20,7 +20,7 @@ test.y<- data.matrix(test[5])
 
 #FITTING GRADIENT BOOSTED BINARY CLASSIFIER
 xgb.class<- xgboost(data=train.x, label=train.y, 
-max.depth=6, eta=0.1, subsample=0.8, colsample_bytree=0.5, 
+max.depth=6, eta=0.01, subsample=0.8, colsample_bytree=0.5, 
 nrounds=1000, objective="binary:logistic")
 
 #DISPLAYING FEATURE IMPORTANCE
@@ -36,4 +36,4 @@ for (i in 1:len){
   pred.pneumonia[i]<- ifelse(pred.prob[i]>=0.5, 1,0)
   match[i]<- ifelse(test.y[i]==pred.pneumonia[i], 1,0)
 }
-print(prop<- mean(match))
+print(accuracy<- mean(match))

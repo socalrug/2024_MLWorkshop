@@ -11,8 +11,7 @@ tsla.data_tbl <- as_tbl_time(tsla.data, Date)
 library(anomalize) 
 library(tidyverse)
 tsla.data_tbl %>% time_decompose(Price, method="stl") %>% 
-anomalize(remainder, method="iqr") %>% time_recompose() %>% 
+anomalize(remainder, method="iqr", alpha=0.1) %>% time_recompose() %>% 
 plot_anomalies(time_recomposed=TRUE, color_no="navy", 
 color_yes="red",fill_ribbon="gray", size_circles=4) + 
 labs(title="Anomalies in Daily Closing Prices of Tesla Stock", subtitle="1/2/2020-5/9/2024") 
-

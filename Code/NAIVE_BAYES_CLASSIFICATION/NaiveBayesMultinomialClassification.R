@@ -1,5 +1,5 @@
 movie.data<- read.csv(file = here::here("DATA_SETS/movie_data.csv"), 
-                      header=TRUE, sep=",")
+                                        header=TRUE, sep=",")
             
 movie.data$gender<- ifelse(movie.data$gender=='M',1,0)
 movie.data$member<- ifelse(movie.data$member=='yes',1,0)
@@ -21,5 +21,5 @@ nb.multiclass<- naiveBayes(as.factor(rating) ~ age + gender + member
 #COMPUTING PREDICTION ACCURACY FOR TESTING DATA
 pred.y<- as.numeric(predict(nb.multiclass, test.x))
 
-print(paste('accuracy=', round((1-mean(test.y!=pred.y))*100, digits=2), '%'))
+print(paste('accuracy=', round((mean(test.y==pred.y))*100, digits=2), '%'))
 

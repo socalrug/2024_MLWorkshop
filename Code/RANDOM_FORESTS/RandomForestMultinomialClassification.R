@@ -1,5 +1,5 @@
 movie.data<- read.csv(file = here::here("DATA_SETS/movie_data.csv"), 
-                      header=TRUE, sep=",")
+                                        header=TRUE, sep=",")
 
 #SPLITTING DATA INTO 80% TRAINING AND 20% TESTING SETS 
 set.seed(566222)
@@ -18,9 +18,9 @@ print(importance(rf.class,type=2))
 predclass<- predict(rf.class, newdata=test)
 test<- cbind(test,predclass)
 
-accuracy<- c()
+match<- c()
 for (i in 1:nrow(test))
-  accuracy[i]<- ifelse(test$rating[i]==test$predclass[i],1,0)
+  match[i]<- ifelse(test$rating[i]==test$predclass[i],1,0)
 
-print(accuracy<- mean(accuracy))
+print(accuracy<- mean(match))
 

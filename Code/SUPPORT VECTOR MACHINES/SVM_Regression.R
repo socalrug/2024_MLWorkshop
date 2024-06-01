@@ -1,5 +1,5 @@
 housing.data<- read.csv(file = here::here("DATA_SETS/housing_data.csv"),
-                                          header=TRUE, sep=",")
+                        header=TRUE, sep=",")
 
 housing.data$ocean_proximity<- ifelse(housing.data$ocean_proximity=='<1H OCEAN',
 1, ifelse(housing.data$ocean_proximity=='INLAND',2, 
@@ -126,7 +126,7 @@ svm.reg<- svm(median_house_value ~ housing_median_age+total_rooms
 +total_bedrooms+population+households+median_income+ocean_proximity, 
 data=train, kernel="sigmoid")
 
-#COMPUTING PREDICTION ACCURACY FOR TESTING DATA 
+#COMPUTING data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAbElEQVR4Xs2RQQrAMAgEfZgf7W9LAguybljJpR3wEse5JOL3ZObDb4x1loDhHbBOFU6i2Ddnw2KNiXcdAXygJlwE8OFVBHDgKrLgSInN4WMe9iXiqIVsTMjH7z/GhNTEibOxQswcYIWYOR/zAjBJfiXh3jZ6AAAAAElFTkSuQmCCPREDICTION ACCURACY FOR TESTING DATA 
 pred.y<- predict(svm.reg, test.x)
 
 #accuracy within 10%

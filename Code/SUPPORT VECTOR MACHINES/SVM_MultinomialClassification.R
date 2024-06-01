@@ -1,4 +1,4 @@
-movie.data<- read.csv(file = here::here("DATA_SETS/movie_data.csv"),
+movie.data<- read.csv(file = here::here("DATA_SETS/movie_data.csv"), 
                                         header=TRUE, sep=",")
             
 movie.data$gender<- ifelse(movie.data$gender=='M',1,0)
@@ -23,7 +23,7 @@ data=train, kernel="linear")
 #computing prediction accuracy for testing data
 pred.y<- as.numeric(predict(svm.multiclass, test.x))
 
-print(paste("accuracy=", round(1-mean(test.y!=pred.y), digits=4)))
+print(paste("accuracy=", round(mean(test.y==pred.y), digits=4)))
 
 #################################################################
 #FITTING SVM WITH POLYNOMIAL KERNEL
@@ -33,7 +33,7 @@ data=train, kernel="polynomial")
 #computing prediction accuracy for testing data
 pred.y<- as.numeric(predict(svm.multiclass, test.x))
 
-print(paste("accuracy=", round(1-mean(test.y!=pred.y), digits=4)))
+print(paste("accuracy=", round(mean(test.y==pred.y), digits=4)))
 
 #################################################################
 #FITTING SVM WITH RADIAL KERNEL
@@ -43,7 +43,7 @@ data=train, kernel="radial")
 #computing prediction accuracy for testing data
 pred.y<- as.numeric(predict(svm.multiclass, test.x))
 
-print(paste("accuracy=", round(1-mean(test.y!=pred.y), digits=4)))
+print(paste("accuracy=", round(mean(test.y==pred.y), digits=4)))
 
 #################################################################
 #FITTING SVM WITH SIGMOID KERNEL
@@ -53,4 +53,4 @@ data=train, kernel="sigmoid")
 #computing prediction accuracy for testing data
 pred.y<- as.numeric(predict(svm.multiclass, test.x))
 
-print(paste("accuracy=", round(1-mean(test.y!=pred.y),digits=4)))
+print(paste("accuracy=", round(mean(test.y==pred.y),digits=4)))

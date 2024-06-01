@@ -1,4 +1,4 @@
-movie.data<- read.csv(file = here::here("DATA_SETS/movie_data.csv"),
+movie.data<- read.csv(file = here::here("DATA_SETS/movie_data.csv"), 
                                         header=TRUE, sep=",")
             
 #SPLITTING DATA INTO 80% TRAINING AND 20% TESTING SETS 
@@ -17,9 +17,9 @@ library(caret)
 print(train(as.factor(rating)~., data=train, method="knn"))
 
 #FITTING K-NEAREST NEIGHBOR MULTINOMIAL CLASSIFIER 
-knn.mclass<- knnreg(train.x, train.y)
+knn.mclass<- knnreg(train.x, train.y, k=3)
 
 #COMPUTING PREDICTION ACCURACY FOR TESTING DATA 
 pred.y<- round(predict(knn.mclass, test.x), digits=0)
-print(paste("accuracy=", round(1-mean(test.y!=pred.y),digits=4)))
+print(paste("accuracy=", round(mean(test.y==pred.y),digits=4)))
 

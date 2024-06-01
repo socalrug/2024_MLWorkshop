@@ -10,7 +10,8 @@ test<- pneumonia.data[!sample,]
 
 #BUILDING RANDOM FOREST BINARY CLASSIFIER
 library(randomForest)
-rf.class<- randomForest(as.factor(pneumonia) ~ age + gender + tobacco_use	+ PM2_5, data=train)
+rf.class<- randomForest(as.factor(pneumonia) ~ age + gender 
++ tobacco_use	+ PM2_5, data=train)
 
 #DISPLAYING FEATURE IMPORTANCE
 print(importance(rf.class)) 
@@ -19,11 +20,11 @@ print(importance(rf.class))
 predclass<- predict(rf.class, newdata=test)
 test<- cbind(test,predclass)
 
-accuracy<- c()
+match<- c()
 n<- nrow(test)
 for (i in 1:n)
-  accuracy[i]<- ifelse(test$pneumonia[i]==test$predclass[i],1,0)
+  match[i]<- ifelse(test$pneumonia[i]==test$predclass[i],1,0)
 
-print(accuracy<- mean(accuracy))
+print(accuracy<- mean(match))
 
 

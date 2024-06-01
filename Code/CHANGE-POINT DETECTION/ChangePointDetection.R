@@ -1,5 +1,6 @@
-tsla.data<- read.csv(file = here::here("DATA_SETS/TSLAStockPrices.csv"),
+tsla.data <- read.csv(file = here::here("DATA_SETS/TSLAStockPrices.csv"), 
                      header=TRUE, sep=",")
+
 
 library(changepoint)
 ansmean<- cpt.mean(tsla.data$Price,penalty="AIC",method="BinSeg",Q=5)

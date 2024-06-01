@@ -1,8 +1,8 @@
 #install.packages("xgboost")
 library(xgboost)
 
-housing.data<- read.csv(file = here::here("DATA_SETS/housing_data.csv"), 
-header=TRUE, sep=",")
+housing.data<- read.csv(file = here::here("DATA_SETS/housing_data.csv"),
+                        header=TRUE, sep=",")
 
 #SPLITTING DATA INTO 80% TRAINING AND 20% TESTING SETS 
 set.seed(9000345)

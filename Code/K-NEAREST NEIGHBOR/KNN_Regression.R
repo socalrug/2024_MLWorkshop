@@ -1,5 +1,5 @@
-housing.data<- read.csv(file = here::here("DATA_SETS/housing_data.csv"), 
-                                          header=TRUE, sep=",")
+housing.data<- read.csv(file = here::here("DATA_SETS/housing_data.csv"),
+                        header=TRUE, sep=",")
 
 #SPLITTING DATA INTO 80% TRAINING AND 20% TESTING SETS 
 set.seed(880352)
@@ -14,10 +14,10 @@ test.y<- data.matrix(test[8])
 
 #TRAINING K-NEAREST NEIGHBOR REGRESSION 
 library(caret)  #classification and regression training
-print(train(median_house_value~., data=train, method="knn"))
+print(train(median_house_value ~ ., data=train, method="knn"))
 
 #FITTING KNN REGRESSION
-knn.reg<- knnreg(train.x, train.y)
+knn.reg<- knnreg(train.x, train.y, k=5)
 
 #COMPUTING PREDICTION ACCURACY FOR TESTING DATA 
 pred.y<- predict(knn.reg, test.x)

@@ -33,7 +33,6 @@ test.y<- data.matrix(test[5])
 #FITTING ANN WITH LOGISTIC ACTIVATION FUNCTION
 
 library(neuralnet)
-random.seed(112043)
 ann.mclass<- neuralnet(as.factor(rating) ~ age + gender + member + nmovies,
 data=train, hidden=3, act.fct="logistic") 
 

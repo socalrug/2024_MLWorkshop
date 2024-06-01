@@ -1,5 +1,5 @@
 pneumonia.data<- read.csv(file = here::here("DATA_SETS/pneumonia_data.csv"),
-                                            header=TRUE, sep=",")
+                          header=TRUE, sep=",")
 
 pneumonia.data$pneumonia<- ifelse(pneumonia.data$pneumonia=="yes",1,0)
 

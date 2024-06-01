@@ -1,7 +1,7 @@
 library(xgboost)
 
-movie.data<- read.csv(file = here::here("DATA_SETS/movie_data.csv"),
-                      header=TRUE, sep=",")
+movie.data<- read.csv(file = here::here("DATA_SETS/movie_data.csv"), 
+                                        header=TRUE, sep=",")
             
 #SPLITTING DATA INTO 80% TRAINING AND 20% TESTING SETS 
 set.seed(103321)
@@ -18,7 +18,7 @@ test.y<- test.y-1
 
 #FITTING GRADIENT BOOSTED MULTINOMIAL CLASSIFIER
 xgb.mclass<- xgboost(data=train.x, label=train.y, 
-max.depth=6, eta=0.1, subsample=0.8, colsample_bytree=0.5, 
+max.depth=6, eta=0.01, subsample=0.8, colsample_bytree=0.5, 
 nrounds=1000, num_class=5, objective="multi:softprob")
 
 #DISPLAYING FEATURE IMPORTANCE
